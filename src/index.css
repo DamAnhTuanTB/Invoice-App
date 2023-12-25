@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "League Spartan";
+}
+
+:root {
+  --primary-color: rgb(124, 93, 250);
+  --secondary-color: rgb(146, 119, 255);
+  --tertiary-color: rgb(30, 33, 57);
+  --quaternary-color: rgb(37,41,69);
+
+  --quinary-color: rgb(223,227,250);
+  --senary-color: rgb(136,142,176);
+  --septenary-color: rgb(126,136,195)
+  --octonary-color: rgb(12,14,22);
+
+  --nonary-color: rgb(236,87,87);
+  --denary-color: rgb(255,151,151);
+  --undenary-color: rgb(248,248,251);
+  --duodenary-color: rgb(20,22,37);
+}
+
+.light-theme {
+  --background-main: #F8F7FC;
+  --color-text-main: var(--duodenary-color);
+  --background-invoice-item: white;
+  --background-invoice-draft-status: #F3F3F5;
+  --background-invoice-pending-status: #FFFAF0;
+  --background-invoice-paid-status: #F3FCF9;
+  --background-button-edit: var(--quinary-color);
+  --background-list-item: #F8F7FC;
+  --background-amount-due: #F8F7FC;
+  --background-form-invoice: #d5d4d7;
+  --background-input-item: white;
+  --color-item-list-title: var(--duodenary-color);
+  --background-add-new-item: #F8F7FC;
+  --background-button-discard: #b3b3b6;
+  --color-text-discard: var(--duodenary-color);
+  --background-group-button: #F8F7FC;
+}
+
+.dark-theme {
+  --background-main: var(--duodenary-color);
+  --color-text-main: white;
+  --background-invoice-item: #1f213a;
+  --background-invoice-draft-status: #2A2C43;
+  --background-invoice-pending-status: #2B2735;
+  --background-invoice-paid-status: #1F2C3F;
+  --background-button-edit: var(--quaternary-color);
+  --background-list-item: #252946;
+  --background-amount-due: var(--duodenary-color);
+  --background-form-invoice: #141625;
+  --background-input-item: var(--tertiary-color);
+  --color-item-list-title: #6A7189;
+  --background-add-new-item: #252946;
+  --background-button-discard: #F9FAFE;
+  --color-text-discard: #7E88C3;
+  --background-group-button: #232740;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--tertiary-color);;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#paymentTerms_help{
+  padding-top: 7px;
+}
+
